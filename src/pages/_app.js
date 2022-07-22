@@ -1,5 +1,19 @@
-import 'tailwindcss/tailwind.css'
+import { MoralisProvider } from "react-moralis";
+import { SessionProvider } from "next-auth/react"
+import '../../public/styles/globals.css'
+import { ChakraProvider } from '@chakra-ui/react'
 
-const App = ({ Component, pageProps }) => <Component {...pageProps} />
-
-export default App
+export default function App({
+  Component,
+  pageProps,
+}) {
+  return (
+    <MoralisProvider initializeOnMount={false}>
+      <SessionProvider session={pageProps.session}>
+        <ChakraProvider>
+            <Component {...pageProps} />
+        </ChakraProvider>
+      </SessionProvider>
+    </MoralisProvider>
+  )
+}
