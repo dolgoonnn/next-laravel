@@ -2,6 +2,7 @@
 import React from "react";
 import Image from 'next/image'
 import Link from "next/link";
+import { FaArrowCircleRight } from 'react-icons/fa';
 
 const FirstTab = () => {
   return (
@@ -21,13 +22,17 @@ const FirstTab = () => {
                 </div>
             </div>
             <div className="flex w-full justify-center sm:justify-start space-x-8 mt-8">
-            <div className="group">
-                <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer">
-                    <Link target="_blank" rel="noreferrer" href="https://opensea.io">
-                        <a className="relative btn-bg-gradient text-xs flex items-center justify-center px-10 py-4 uppercase font-semibold rounded-md tracking-widest text-white">View on opensea</a>
-                    </Link>
-                 </div>
-            </div>
+                <div className="group">
+                    <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer ">
+                        <Link rel="noreferrer" href="https://opensea.io/collection/">
+                            <a target="_blank" className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 group-hover:bg-white uppercase font-semibold rounded-md tracking-widest bg-pgreen text-white hover:text-black" >view on opensea
+                            <span className='ml-3'>
+                            <FaArrowCircleRight/>
+                            </span>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </div>
         <div className="sm:text-left row-start-2 mt-8 sm:row-start-auto lg:col-span-1">

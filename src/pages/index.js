@@ -9,6 +9,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Roadmap from "@/components/roadmap";
 import Link from 'next/link';
+import { FaArrowCircleRight } from 'react-icons/fa';
 
 // Import Swiper styles
 import "swiper/css";
@@ -22,7 +23,7 @@ export default function Home() {
     <Head>
         <title>YOTON MEMBERSHIP CLUB</title>
     </Head>
-    <div className="bg-black">
+    <div className="bg-pbackground">
       <Header />
       <div className="flex flex-col">
         <main className="mx-auto max-w-7xl w-full px-4 sm:px-0 pt-5">
@@ -137,16 +138,20 @@ export default function Home() {
               <h4 className="basis-1/2 text-center sm:text-left flex-shrink-0 text-6xl font-bold font-bebas sm:text-[60px] uppercase shadow-title text-white">Яагаад YMC PARTNER болох ёстой?</h4>
               <div className="flex space-x-3 sm:space-x-8 mt-12">
                 <div className="group">
-                    <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer">
+                    <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer ">
                       <Link rel="noreferrer" href="https://opensea.io/collection/">
-                        <a target="_blank" className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest btn-bg-gradient text-white" >view on opensea</a>
+                        <a target="_blank" className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 group-hover:bg-white uppercase font-semibold rounded-md tracking-widest bg-pgreen text-white hover:text-black" >view on opensea
+                        <span className='ml-3'>
+                          <FaArrowCircleRight/>
+                        </span>
+                        </a>
                       </Link>
                     </div>
                 </div>
                 <div className="group">
                     <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer text-white">
                       <Link rel="noreferrer" href="https://discord.gg/" >
-                        <a target="_blank" className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-black" >join our discord</a>
+                        <a target="_blank" className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-black group-hover:bg-white  hover:text-black border border-white" >join our discord</a>
                       </Link>
                     </div>
                 </div>

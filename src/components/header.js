@@ -45,29 +45,20 @@ export default function Header() {
   }, [])
 
   return (
-    <nav className="pt-4">
+    <nav className="pt-4 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-0">
           <div className="relative flex items-center justify-between h-16">
             <div className="flex-1 flex items-center justify-start sm:items-stretch sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
-                <div className="block lg:hidden h-auto w-40">
+                <div className="block h-auto w-40">
                   <Link className="relative h-full w-full" href="/">
                     <span style={{boxSizing:'border-box',display:'block', overflow:'hidden',width:'initial', height:'initial', background:'none', opacity:1, border:0, margin:0, padding:0, position:'relative'}}>
-                      <span style={{boxSizing:'border-box',display:'block',width:'initial',height:'initial',background:'none',opacity:1,border:0,margin:0,padding:0,paddingTop:'22.52747252747253%'}}></span>
-                      <img  alt="logo_bc_07fc33e83b.svg" src="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75" decoding="async" data-nimg="responsive" style={{position:'absolute', top:0, left:0, bottom:0, right:0, boxSizing:'border-box',padding:0,border:'none',margin:'auto',display:'block',width:0,height:0,minWidth:'100%',maxWidth:'100%',minHeight:'100%',maxHeight:'100%',objectFit:'contain'}} sizes="100vw" srcSet="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=640&amp;q=75 640w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=750&amp;q=75 750w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=828&amp;q=75 828w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1080&amp;q=75 1080w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1200&amp;q=75 1200w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1920&amp;q=75 1920w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=2048&amp;q=75 2048w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75 3840w"></img>
-                      <noscript><img alt="logo_bc_07fc33e83b.svg" sizes="100vw" srcSet="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=640&amp;q=75 640w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=750&amp;q=75 750w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=828&amp;q=75 828w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1080&amp;q=75 1080w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1200&amp;q=75 1200w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1920&amp;q=75 1920w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=2048&amp;q=75 2048w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75 3840w" src="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75" decoding="async" data-nimg="responsive" style={{position:'absolute',top:0,left:0,bottom:0,right:0,boxSizing:'border-box',padding:0,border:'none',margin:'auto',display:'block',width:0,height:0,minWidth:'100%',maxWidth:'100%', minHeight:100, maxHeight:'100%',objectFit:'contain'}} loading="lazy"></img></noscript>
+
+                      <img src="https://www.ihcoin.io/wp-content/uploads/2022/02/ihc-web-logo.png" alt="IHC coin" className="h-10"/>
                     </span>
                   </Link>
                 </div>
-                <div className="hidden lg:block h-auto w-40">
-                  <Link className="relative h-8 w-full" href="/">
-                    <span style={{boxSizing:'border-box',display:'block', overflow:'hidden',width:'initial', height:'initial', background:'none', opacity:1, border:0, margin:0, padding:0, position:'relative'}}>
-                      <span style={{boxSizing:'border-box',display:'block',width:'initial',height:'initial',background:'none',opacity:1,border:0,margin:0,padding:0,paddingTop:'22.52747252747253%'}}></span>
-                      <img alt="logo_bc_07fc33e83b.svg" src="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75" decoding="async" data-nimg="responsive" style={{position:'absolute', top:0, left:0, bottom:0, right:0, boxSizing:'border-box',padding:0,border:'none',margin:'auto',display:'block',width:0,height:0,minWidth:'100%',maxWidth:'100%',minHeight:'100%',maxHeight:'100%',objectFit:'contain'}} sizes="100vw" srcSet="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=640&amp;q=75 640w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=750&amp;q=75 750w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=828&amp;q=75 828w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1080&amp;q=75 1080w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1200&amp;q=75 1200w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1920&amp;q=75 1920w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=2048&amp;q=75 2048w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75 3840w"></img>
-                      <noscript><img alt="logo_bc_07fc33e83b.svg" sizes="100vw" srcSet="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=640&amp;q=75 640w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=750&amp;q=75 750w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=828&amp;q=75 828w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1080&amp;q=75 1080w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1200&amp;q=75 1200w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=1920&amp;q=75 1920w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=2048&amp;q=75 2048w, https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75 3840w" src="https://storage.googleapis.com/billionaire-club-327223.appspot.com/logo_bc_07fc33e83b_9afaf2f6e4/logo_bc_07fc33e83b_9afaf2f6e4.svg?w=3840&amp;q=75" decoding="async" data-nimg="responsive" style={{position:'absolute',top:0,left:0,bottom:0,right:0,boxSizing:'border-box',padding:0,border:'none',margin:'auto',display:'block',width:0,height:0,minWidth:'100%',maxWidth:'100%', minHeight:100, maxHeight:'100%',objectFit:'contain'}} loading="lazy"></img></noscript>
-                    </span>
-                  </Link>
-                </div>
+
               </div>
               <div className="hidden sm:block sm:ml-12">
                 <div className="flex space-x-8 h-full items-center">
@@ -130,9 +121,9 @@ export default function Header() {
                     </div>
                   </div>
                 ) : (
-                  <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer text-white">
+                  <div className="flex grow-0 group  justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer text-white">
                   <Link target="_blank" rel="noreferrer" href="/login" >
-                    <a className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-black" >Login</a>
+                    <a className="relativetransition text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-white text-black" >Login</a>
                   </Link>
                 </div>
                 )}
@@ -141,11 +132,11 @@ export default function Header() {
             </div>
             <div className="hidden absolute inset-y-0 right-0 sm:flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 space-x-6">
               <div className="group">
-                <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 group-hover:rounded-full cursor-pointer">
+                <div className="flex grow-0 border border-white justify-center btn-border-gradient rounded-md mr-0 p-0.5  cursor-pointer">
                   <Link target="_blank" href="/">
-                    <a  className="relative text-xs flex items-center justify-center px-6 py-4 uppercase font-semibold btn-bg-gradient rounded-md group-hover:rounded-full group-hover:bg-black overflow-x-hidden space-x-4" >
-                    <span className="group-hover:animate-marquee whitespace-nowrap text-white">Join our discord</span>
-                    <span className="hidden absolute top-4 group-hover:block group-hover:animate-marquee2 whitespace-nowrap text-white">Join our discord</span>
+                    <a  className="relative text-xs flex items-center justify-center px-6 py-4 uppercase font-semibold bg-black  rounded-md  overflow-x-hidden space-x-4" >
+                    <span className="  whitespace-nowrap text-white">Join our discord</span>
+
                     </a>
                   </Link>
                 </div>
