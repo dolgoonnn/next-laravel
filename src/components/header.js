@@ -62,10 +62,10 @@ export default function Header() {
               </div>
               <div className="hidden sm:block sm:ml-12">
                 <div className="flex space-x-8 h-full items-center">
-                  <Link href="/#welcome"><a className="font-semibold text-white" >About</a></Link>
-                  <Link href="/#nft"><a className="font-semibold text-white">YMC 99</a></Link>
-                  <Link href="/#roadmap"><a className="font-semibold text-white">Roadmap</a></Link>
-                  <Link href="/#team"><a className="font-semibold text-white" >Team</a></Link>
+                  <Link href="/#welcome"><a className="font-semibold text-white hover:text-pgreen" >About</a></Link>
+                  <Link href="/#nft"><a className="font-semibold text-white hover:text-pgreen">Ikh Khuraldai</a></Link>
+                  <Link href="/#roadmap"><a className="font-semibold text-white hover:text-pgreen">Roadmap</a></Link>
+                  <Link href="/#team"><a className="font-semibold text-white hover:text-pgreen" >Team</a></Link>
 
                 </div>
               </div>

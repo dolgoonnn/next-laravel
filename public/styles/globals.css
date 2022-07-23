@@ -186,8 +186,8 @@ ul.nav li.active {
     /* --tw-text-opacity: 1;
 	color: rgb(178 80 255/var(--tw-text-opacity)); */
     background-color: transparent;
-    background-image: -moz-linear-gradient(left, #00e8ba 0, #1aafd0 100%);
-    background-image: linear-gradient(90deg, #00e8ba, #1aafd0);
+    background-image: -moz-linear-gradient(left, #28c884 0, #56e5bb 100%);
+    background-image: linear-gradient(90deg, #28c884, #56e5bb);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -217,7 +217,7 @@ ul.nav li.active {
 
 .text-bc-B25 {
     --tw-text-opacity: 1;
-    color: #00e8ba;
+    color: #28c884;
 }
 
 .text-bc-A1A {
@@ -385,7 +385,7 @@ ul.nav li.active {
     color: #fff;
 }
 .shadow-title {
-    text-shadow: 0 0 35px #93523f;
+    text-shadow: 0 0 35px #28c884;
 }
 
 .border-default {

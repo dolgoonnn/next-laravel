@@ -9,15 +9,15 @@ const FirstTab = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-8">
         <div className="sm:text-left row-start-1 sm:row-start-auto lg:col-span-1">
             <h2 className="text-3xl sm:text-4xl tracking-wide font-bold mb-4 space-y-1 sm:space-y-2 pt-10 sm:pt-20">
-            <p className="text-default font-bebas text-[50px] sm:text-[60px] leading-none text-center sm:text-left uppercase">YMC Club гэж юу бэ?</p>
+            <p className="text-default font-bebas text-[50px] sm:text-[60px] leading-none text-center sm:text-left uppercase">IHC Club гэж юу бэ?</p>
             </h2>
             <div className="font-normal mt-10 font-gordita text-center sm:text-left">
                 <div className="bcm-white font-gordita text-bc-A1A text-[17px] leading-8">
                     <p>
-                        Бид технологи, бизнес, хөрөнгө оруулалтын салбарын түүчээлэгч <strong>99 залуусын хамтаар YMC Club-ийг үүсгэж байна.</strong> Энэхүү хамтрал нь Вэб 3.0 буюу Шинэ интернэтийн бидэнд олгож буй боломжийг ашиглан “Yoton DAO” платформыг хөгжүүлж, хамтран өмчилж ажилуулах юм.
+                        Бид технологи, бизнес, хөрөнгө оруулалтын салбарын түүчээлэгч <strong>99 залуусын хамтаар IHC Club-ийг үүсгэж байна.</strong> Энэхүү хамтрал нь Вэб 3.0 буюу Шинэ интернэтийн бидэнд олгож буй боломжийг ашиглан "IHC DAO” платформыг хөгжүүлж, хамтран өмчилж ажилуулах юм.
                         <br/>
                         <br/>
-                        <strong>YMC нь анхлан үүсгэн байгуулагч 99 партнер-тай байх бөгөөд тус бүрдээ нэг NFT-ээр баталгаажих юм.</strong> Уг NFT  болон бидний хөгжүүлэх платформ нь Ethereum суурьтай Polygon блокчэйн дээр хөгжүүлэгдэнэ.
+                        <strong>IHC нь анхлан үүсгэн байгуулагч 99 партнер-тай байх бөгөөд тус бүрдээ нэг NFT-ээр баталгаажих юм.</strong> Уг NFT  болон бидний хөгжүүлэх платформ нь Ethereum суурьтай Polygon блокчэйн дээр хөгжүүлэгдэнэ.
                     </p>
                 </div>
             </div>

@@ -26,11 +26,11 @@ export default function Footer(props) {
         </section>
         <div className="pt-3">
         <div className="flex flex-col-reverse mx-auto items-center sm:flex-row">
-            <div className="basis-5/12 flex flex-col items-start justify-center text-xs sm:text-[13px] font-gordita font-normal text-primary">© 2022 Yoton Membership Club. All rights reserved</div>
+            <div className="basis-5/12 flex flex-col items-start justify-center text-xs sm:text-[13px] font-gordita font-normal text-primary">Copyright © 2022 IHC. All Rights Reserved</div>
             <nav className="basis-2/12 flex flex-wrap justify-center" aria-label="Footer">
             </nav>
             <div className="basis-5/12 flex flex-col items-end justify-center">
-                <div className="text-white font-gordita font-normal text-xs sm:text-[13px] text-right">contact@ymc.club</div>
+                <div className="text-white font-gordita font-normal text-xs sm:text-[13px] text-right">contact@ihc.club</div>
             </div>
         </div>
 

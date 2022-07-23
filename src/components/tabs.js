@@ -18,8 +18,8 @@ const Tabs = () => {
                 <div className="w-full mx-auto mt-6">
                 <div className="border-b border-bc-A5A">
                     <nav className="-mb-0.5 flex" aria-label="Tabs">
-                        <div className={'border-bc-B25 cursor-pointer w-1/2 py-4 text-center font-bold text-[25px] sm:text-3xl font-bebas sm:font-gordita uppercase text-white ' + (activeTab === "tab1" ? "text-bc-B25  border-b-4 " : "")} onClick={handleTab1} aria-current="page">YMC Club гэж юу бэ?</div>
-                        <div className={'border-bc-B25 text-white hover:text-bc-B25 hover:border-bc-B25 border-b cursor-pointer w-1/2 py-4 text-center font-bold text-[25px] sm:text-3xl font-bebas sm:font-gordita uppercase ' + (activeTab === "tab2" ? "text-bc-B25 border-b-4" : "")} onClick={handleTab2}>YMC Алсын хараа</div>
+                        <div className={'border-bc-B25 cursor-pointer w-1/2 py-4 text-center font-bold text-[25px] sm:text-3xl font-bebas sm:font-gordita uppercase text-white ' + (activeTab === "tab1" ? "text-bc-B25  border-b-4 " : "")} onClick={handleTab1} aria-current="page">IHC DAO гэж юу бэ?</div>
+                        <div className={'border-bc-B25 text-white hover:text-bc-B25 hover:border-bc-B25 border-b cursor-pointer w-1/2 py-4 text-center font-bold text-[25px] sm:text-3xl font-bebas sm:font-gordita uppercase ' + (activeTab === "tab2" ? "text-bc-B25 border-b-4" : "")} onClick={handleTab2}>IHC DAO Алсын хараа</div>
                     </nav>
                 </div>
                 </div>

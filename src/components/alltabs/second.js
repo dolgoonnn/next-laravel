@@ -8,7 +8,7 @@ const SecondTab = () => {
 
         <div className="sm:text-left row-start-1 sm:row-start-auto lg:col-span-1">
             <h2 className="text-3xl sm:text-4xl tracking-wide font-bold mb-4 space-y-1 sm:space-y-2 pt-10 sm:pt-20">
-            <p className="text-default font-bebas text-[50px] sm:text-[60px] leading-none text-center sm:text-left uppercase">YMC Алсын хараа</p>
+            <p className="text-default font-bebas text-[50px] sm:text-[60px] leading-none text-center sm:text-left uppercase">IHC    Алсын хараа</p>
             </h2>
             <div className="font-normal mt-10 font-gordita text-center sm:text-left">
                  <div className="bcm-white font-gordita text-bc-A1A text-[17px] leading-8">
@@ -22,7 +22,7 @@ const SecondTab = () => {
                         <strong>Хамтын саналаар шийдвэрээ гаргадаг, оролцооныхоо хэрээр үр өгөөж эзэмшил нь хуваарилагддаг</strong>, хийснийхээ хэрээр урамшуулал олгогддог шилэн данснтай, нээлттэй бүтэцтэй хамтралууд улам эрчээ авч байна.
                         <br/>
                         <br/>
-                        <strong>YMC нь энэхүү өөрчлөлтийн түүчээлэгч байж YOTON DAO </strong>платформоо чанарын өндөр түвшинд хөгжүүлж, дотоодын 5, олон улсын 5 хамтралыг тус бүр зах зээлд бий болгоно.
+                        <strong>IHC нь энэхүү өөрчлөлтийн түүчээлэгч байж IHC DAO </strong>платформоо чанарын өндөр түвшинд хөгжүүлж, дотоодын 5, олон улсын 5 хамтралыг тус бүр зах зээлд бий болгоно.
                     </p>
                 </div>
             </div>
