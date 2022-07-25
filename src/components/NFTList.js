@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from '@/lib/axios'
 import NFTdetail from '@/components/NFTdetail'
 import NFTdetailsoon from '@/components/NFTdetailsoon'
-import ListMainTab from '@/allTabs/listMain'
+import ListMainTab from './allTabs/listMain'
 var NumberFormat = require('react-number-format').default
 
 
