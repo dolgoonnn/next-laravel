@@ -2,16 +2,18 @@ import React, { useState, useEffect } from 'react'
 import axios from '@/lib/axios'
 import NFTdetail from '@/components/NFTdetail'
 import NFTdetailsoon from '@/components/NFTdetailsoon'
+import ListMainTab from './allTabs/listMain'
 var NumberFormat = require('react-number-format').default
+
 
 const NFTlist = () => {
     const [nfts, setNfts] = useState([])
 
-    useEffect(() => {
-        axios.get('/api/getNfts').then(response => {
-            setNfts(response.data)
-        })
-    }, [])
+    // useEffect(() => {
+    //     axios.get('/api/getNfts').then(response => {
+    //         setNfts(response.data)
+    //     })
+    // }, [])
 
     const [activeTab, setActiveTab] = useState("tab1");
     const handleTab1 = () => {
@@ -46,19 +48,8 @@ const NFTlist = () => {
                 борлуулалтаар зөвхөн эхний 33 NFT-г гаргаж байна. Түрүүлж орж NFT-ээ
                 тал үнээр нь эзэмш!</div>
                     <ul role="list" className="gap-3 sm:space-x-0 mx-auto grid grid-cols-2 sm:gap-x-5 sm:gap-y-8 lg:grid-cols-4 lg:max-w-7xl mt-8 overflow-x-scroll">
-                    {nfts.length > 0 ? (
-                        <>
-                            {nfts.map((ndata, i) => (
-                                <NFTdetail
-                                    ndata={ndata}
-                                    key={i}
-                                />
-                            ))}
-                        </>
-                    ) : (
-                        <div>Loading</div>
-                    )}
                     </ul>
+                    <ListMainTab/>
                 </>
             ) : (
                 <>

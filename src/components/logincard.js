@@ -68,15 +68,13 @@ export default function LoginCard(){
                             </div>
                             <div className="group">
                                 <button onClick={login} className="flex w-full grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer text-white">
-
-                                    <p className="relative w-full text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-black" >Login</p>
-
+                                    <p className="relative w-full text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-black   group-hover:bg-white  hover:text-black border border-white" >Login</p>
                                 </button>
                             </div>
                             <div className="group">
                                 <button onClick={toggleSignUp} className="flex w-full grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer">
 
-                                    <p className="relative w-full text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest btn-bg-gradient text-white" >Sign up</p>
+                                    <p className="relative w-full text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest group-hover:bg-white text-white bg-pgreen hover:text-black" >Sign up</p>
 
                                 </button>
                             </div>

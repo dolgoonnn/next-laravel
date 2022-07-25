@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import NFTlist from "@/components/NFTlist";
+import NFTlist from "@/components/NFTList";
 import Link from 'next/link';
 import Footer from "@/components/footer";
 import Header from '@/components/header';

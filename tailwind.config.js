@@ -10,6 +10,7 @@ module.exports = {
             colors:{
                 pbackground:"#1c1831",
                 pgreen:"#3bc49b",
+                ppurple:"#7e2efa"
 
             },
             fontFamily: {

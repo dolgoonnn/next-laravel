@@ -172,7 +172,7 @@ export default function Home() {
 
         </section>
 
-        <section id="nft" className="overflow-hidden">
+        <section id="nft" className="overflow-hidden bg-black">
           <div className="max-w-sm sm:max-w-7xl mx-auto py-12 text-center sm:px-0 lg:py-24">
             <h2 className="text-center sm:text-left text-6xl font-bebas sm:text-[110px] leading-[100px] uppercase text-white font-bold">Ikh Khuraldai NFT</h2>
             <NFTlist />
@@ -286,16 +286,16 @@ export default function Home() {
                   <Team src="/images/1kghq0vfep6goqatntfgk.jpeg" name="Gantig Bayarmagnai" title="Chief Executive Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Team src="/images/4frfbtdgbc8iiapomuhbk.jpeg" name="Munkhjin Otgonbaatar" title="Chief Operating Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                  <Team src="/images/4frfbtdgbc8iiapomuhbk.jpeg" name="Stephen Chen" title="Chief Financial Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Team src="/images/3nn1jyx137b7er1g99pat.jpeg" name="Munkh-Erdene Burenjargal" title="Advisors" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                  <Team src="/images/5wjo5713ceyj8tps5nhta.jpeg" name="Munkhjin Otgonbaatar" title="Chief Operating Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Team src="/images/1kghq0vfep6goqatntfgk.jpeg" name="Munkh-Erdene Burenjargal" title="Chief Technology Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Team src="/images/4frfbtdgbc8iiapomuhbk.jpeg" name="Stephen Chen" title="Chief Financial Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                  <Team src="/images/3nn1jyx137b7er1g99pat.jpeg" name="Erkhembayar Bayarsaikhan" title="Chief Trading accordion Risk Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Team src="/images/4frfbtdgbc8iiapomuhbk.jpeg" name="Dave Lee" title="Chief Executive Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>

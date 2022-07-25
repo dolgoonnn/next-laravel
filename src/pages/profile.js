@@ -2,11 +2,12 @@
 import { getSession,signOut } from 'next-auth/react';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Link from 'next/link';
 
 export default function Profile({ user }) {
 
     return(
-        <div className="bg-black">
+        <div className="bg-pbackground">
           <Header/>
           <div className="p-10 grid bg-roadmap bg-cover gap-4 md:grid-cols-3">
 

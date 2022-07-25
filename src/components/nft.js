@@ -17,9 +17,9 @@ export default function NFT(props) {
                     <p className="text-[10px] sm:text-lg font-bold text-primary">{props.price}</p>
                     <p className="text-white text-[9px] sm:text-base font-semibold pb-1">{props.status}</p>
                     <div className="group">
-                        <div className="grow-0 justify-center btn-border-white rounded-md mr-0 p-0.5 cursor-pointer text-white">
+                        <div className="grow-0 border-2 border-ppurple justify-center  rounded-md mr-0 p-0.5 cursor-pointer text-white">
                             <Link target="_blank" href="/2">
-                                <a className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-black">Худалдаж авах</a>
+                                <a className="relative text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest  bg-black">Худалдаж авах</a>
                             </Link>
                         </div>
                     </div>
