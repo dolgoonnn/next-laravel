@@ -8,8 +8,8 @@ import Footer from "@/components/footer";
 import Header from '@/components/header';
 import { useAddress, useMetamask } from '@thirdweb-dev/react'
 import axios from '@/lib/axios'
-import Button from '@/components/Button'
-import LoginCheck from '@/components/LoginCheck'
+
+// import LoginCheck from '@/components/LoginCheck'
 import NumberFormat from 'react-number-format'
 import { Modal, Text } from '@nextui-org/react'
 import { signOut, useSession } from 'next-auth/react'
@@ -352,9 +352,9 @@ const NFT = () => {
               )}
           </Modal.Body>
           <Modal.Footer>
-              <Button color="error" onClick={closeQpayModal}>
+              {/* <Button color="error" onClick={closeQpayModal}>
                   Close
-              </Button>
+              </Button> */}
           </Modal.Footer>
       </Modal>
       {/* MODAL end */}
