@@ -36,8 +36,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-2xl mt-6">
             <div className="device-layout-component">
               <span style={{boxSizing: 'border-box', display:'block', overflow:'hidden', width:'initial', height:'initial', background:'none', opacity: 1, border:'0px', margin:'0px', padding:'0px', position:'relative'}}>
-                <div className="bg-main"></div>
-                <noscript></noscript>
+                <Image height="515px" width="1280px" src="/images/nft-cover.png" />
               </span>
             </div>
           </div>

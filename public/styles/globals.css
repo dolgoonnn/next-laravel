@@ -152,7 +152,7 @@ ul.nav li.active {
 
 .bg-main {
     height: 515px;
-    background-image: url('../images/nft-cover.png');
+    background-image: url('/images/nft-cover.png');
 }
 .bg-collection {
     background-image: url('../images/sectionBackground.9478d28f.webp');
