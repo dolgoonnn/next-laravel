@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Tabs from "@/components/tabs"
 import Accordion from "@/components/accordion";
-import NFTlist from "@/components/NFTlist";
+import NFTList from "@/components/NFTList";
 import Team from "@/components/team";
 import Footer from "@/components/footer";
 import Header from "@/components/header";

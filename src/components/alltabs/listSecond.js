@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/Image'
 import Link from "next/link";
-import NFT from "../../components/nft";
+import NFT from "../nft";
 import { useState, useEffect } from "react";
 import useSWR from 'swr'
 

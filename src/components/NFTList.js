@@ -23,6 +23,7 @@ const NFTlist = () => {
         setActiveTab("tab2");
     };
 
+
     const yoton_soon = '/images/yoton_soon.png';
 
     return (
