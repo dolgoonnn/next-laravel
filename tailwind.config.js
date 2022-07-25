@@ -8,10 +8,10 @@ module.exports = {
 
         extend: {
             colors:{
-                pbackground:"#1c1831",
+                pbackground:"#382687",
                 pgreen:"#3bc49b",
-                ppurple:"#7e2efa"
-
+                ppurple:"#7e2efa",
+                sbackground:"#201c3c"
             },
             fontFamily: {
                 sans: ['Poppins', ...defaultTheme.fontFamily.sans],

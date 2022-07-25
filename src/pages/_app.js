@@ -8,9 +8,9 @@ export default function App({
   pageProps,
 }) {
 
-  if (!process.env.NEXT_PUBLIC_APPID || !process.env.NEXT_PUBLIC_SERVER_URL) {
-    return <h3>keys not found</h3>
-  }
+  // if (!process.env.NEXT_PUBLIC_APPID || !process.env.NEXT_PUBLIC_SERVER_URL) {
+  //   return <h3>keys not found</h3>
+  // }
   return (
     <MoralisProvider appId={process.env.NEXT_PUBLIC_APPID} serverUrl={process.env.NEXT_PUBLIC_SERVER_URL} initializeOnMount={true}>
       <SessionProvider session={pageProps.session}>

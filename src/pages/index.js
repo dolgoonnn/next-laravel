@@ -172,7 +172,7 @@ export default function Home() {
 
         </section>
 
-        <section id="nft" className="overflow-hidden bg-black">
+        <section id="nft" className="overflow-hidden bg-sbackground">
           <div className="max-w-sm sm:max-w-7xl mx-auto py-12 text-center sm:px-0 lg:py-24">
             <h2 className="text-center sm:text-left text-6xl font-bebas sm:text-[110px] leading-[100px] uppercase text-white font-bold">Ikh Khuraldai NFT</h2>
             <NFTList />
