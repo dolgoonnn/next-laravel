@@ -6,7 +6,7 @@ import NFTlist from "@/components/NFTList";
 import Link from 'next/link';
 import Footer from "@/components/footer";
 import Header from '@/components/header';
-import { useAddress, useMetamask } from '@thirdweb-dev/react'
+// import { useAddress, useMetamask } from '@thirdweb-dev/react'
 import axios from '@/lib/axios'
 
 // import LoginCheck from '@/components/LoginCheck'
@@ -18,8 +18,8 @@ import { ThirdwebSDK } from '@thirdweb-dev/sdk'
 const NFT = () => {
 
   const { data: token } = useSession()
-  const connectWithMetamask = useMetamask()
-  const address = useAddress()
+//   const connectWithMetamask = useMetamask()
+//   const address = useAddress()
   const router = useRouter()
   const { id } = router.query
   const [nft, setNft] = useState([])

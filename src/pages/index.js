@@ -30,7 +30,7 @@ export default function Home() {
         <main className="mx-auto max-w-7xl w-full px-4 sm:px-0 pt-5">
           <div className="border-b border-t border-white pt-7 pb-7">
             <span style={{boxSizing:'border-box',display:'block',overflow:'hidden',width:'initial',height:'initial',background:'none',opacity:1,border:0,margin:0,padding:0,position:'relative'}}>
-              <Image width="1280px" height="140px" src="/images/IHC_CLUB.png" alt="Yoton"/>
+              <Image width="1280px" height="140px" src="/images/IHC-cover.png" alt="Yoton"/>
             </span>
           </div>
           <div className="overflow-hidden rounded-2xl mt-6">
@@ -292,13 +292,13 @@ export default function Home() {
                   <Team src="/images/5wjo5713ceyj8tps5nhta.jpeg" name="Munkhjin Otgonbaatar" title="Chief Operating Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Team src="/images/1kghq0vfep6goqatntfgk.jpeg" name="Munkh-Erdene Burenjargal" title="Chief Technology Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                  <Team src="/images/28a4m2jktfmlchz0wv3ty6.jpeg" name="Munkh-Erdene Burenjargal" title="Chief Technology Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Team src="/images/3nn1jyx137b7er1g99pat.jpeg" name="Erkhembayar Bayarsaikhan" title="Chief Trading accordion Risk Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Team src="/images/4frfbtdgbc8iiapomuhbk.jpeg" name="Dave Lee" title="Chief Executive Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                  <Team src="/images/05BD4C49-37AB-4D61-9369-ECFB8D5DA4C4.jpeg" name="Dave Lee" title="Chief Executive Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
               </Swiper>
           </div>
