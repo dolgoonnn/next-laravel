@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import FirstTab from "./allTabs/first";
-import SecondTab from "./allTabs/second";
+import FirstTab from "@/allTabs/first";
+import SecondTab from "@/allTabs/second";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("tab1");
     const handleTab1 = () => {
