@@ -30,13 +30,14 @@ export default function Home() {
         <main className="mx-auto max-w-7xl w-full px-4 sm:px-0 pt-5">
           <div className="border-b border-t border-white pt-7 pb-7">
             <span style={{boxSizing:'border-box',display:'block',overflow:'hidden',width:'initial',height:'initial',background:'none',opacity:1,border:0,margin:0,padding:0,position:'relative'}}>
-              <Image width="1280px" height="140px" src="/images/IHC-cover.png" alt="Yoton"/>
+              <Image width="1280px" height="140px" src="/images/IHC_cover.png" alt="Yoton"/>
             </span>
           </div>
           <div className="overflow-hidden rounded-2xl mt-6">
             <div className="device-layout-component">
               <span style={{boxSizing: 'border-box', display:'block', overflow:'hidden', width:'initial', height:'initial', background:'none', opacity: 1, border:'0px', margin:'0px', padding:'0px', position:'relative'}}>
-                <Image height="515px" width="1280px" src="/images/nft-cover.png" />
+                <div className="bg-main"></div>
+                <noscript></noscript>
               </span>
             </div>
           </div>

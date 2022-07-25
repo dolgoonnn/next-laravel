@@ -20,7 +20,7 @@ export default function MobileMenu(props) {
                 <Link href="/#welcome"><a className="font-semibold" >About</a></Link>
             </button>
             <button className="block px-3 py-2 rounded-md text-base font-medium text-bc-C7C hover:text-white" type="button">
-                <Link href="/#nft"><a className="font-semibold">YMC 99</a></Link>
+                <Link href="/#nft"><a className="font-semibold">Ikh Khuraldai</a></Link>
             </button>
             <button className="block px-3 py-2 rounded-md text-base font-medium text-bc-C7C hover:text-white" type="button">
                 <Link href="/#roadmap"><a className="font-semibold">Roadmap</a></Link>
