@@ -1,9 +1,9 @@
 
 import { getSession,signOut } from 'next-auth/react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-import Web3WalletNFT from '../components/web3WalletNFT';
+import Web3WalletNFT from '../../components/web3WalletNFT';
 import ConnectWallet from '@/components/connect';
 
 export default function ProfileNFT({ user }) {

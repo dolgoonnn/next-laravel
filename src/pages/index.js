@@ -293,7 +293,7 @@ export default function Home() {
 
               >
                 <SwiperSlide>
-                  <Team src="/images/1DFC198E-E524-46D8-9348-2826940E8ED1.jpeg" name="Bayarsaikhan Volodya" title="DAO advisor" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                  <Team src="/images/1DFC198E-E524-46D8-9348-2826940E8ED1.jpeg" name="Bayarsaikhan Volodya" title="DAO" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Team src="/images/1kghq0vfep6goqatntfgk.jpeg" name="Gantig Bayarmagnai" title="Chief Executive Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
