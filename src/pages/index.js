@@ -30,7 +30,7 @@ export default function Home() {
         <main className="mx-auto max-w-7xl w-full px-4 sm:px-0 pt-5">
           <div className="border-b border-t border-white pt-7 pb-7">
             <span style={{boxSizing:'border-box',display:'block',overflow:'hidden',width:'initial',height:'initial',background:'none',opacity:1,border:0,margin:0,padding:0,position:'relative'}}>
-              <Image width="1280px" height="140px" src="/images/IHC_cover.png" alt="Yoton"/>
+              <Image width="1280px" height="140px" src="/images/IHC-club.png" alt="Yoton"/>
             </span>
           </div>
           <div className="overflow-hidden rounded-2xl mt-6">
@@ -173,9 +173,19 @@ export default function Home() {
         </section>
 
         <section id="nft" className="overflow-hidden bg-sbackground">
-          <div className="max-w-sm sm:max-w-7xl mx-auto py-12 text-center sm:px-0 lg:py-24">
+          <div className="max-w-sm sm:max-w-7xl mx-auto py-12 text-center sm:py-12 lg:py-24">
             <h2 className="text-center sm:text-left text-6xl font-bebas sm:text-[110px] leading-[100px] uppercase text-white font-bold">Ikh Khuraldai NFT</h2>
             <NFTList />
+            <div className="flex grow-0 justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer ">
+              <Link rel="noreferrer" href="/nfts">
+                <a   className="relative text-xs flex items-center justify-center px-4 py-3  sm:px-10 sm:py-4 group-hover:bg-white uppercase font-semibold rounded-md tracking-widest bg-pgreen text-white hover:text-black" >
+                  Цааш үзэх
+                <span className='ml-3'>
+                  <FaArrowCircleRight/>
+                </span>
+                </a>
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -282,6 +292,9 @@ export default function Home() {
                 className="mySwiper"
 
               >
+                <SwiperSlide>
+                  <Team src="/images/1DFC198E-E524-46D8-9348-2826940E8ED1.jpeg" name="Bayarsaikhan Volodya" title="DAO advisor" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
+                </SwiperSlide>
                 <SwiperSlide>
                   <Team src="/images/1kghq0vfep6goqatntfgk.jpeg" name="Gantig Bayarmagnai" title="Chief Executive Officer" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>
