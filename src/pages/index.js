@@ -292,6 +292,7 @@ export default function Home() {
                 className="mySwiper"
 
               >
+
                 <SwiperSlide>
                   <Team src="/images/1DFC198E-E524-46D8-9348-2826940E8ED1.jpeg" name="Bayarsaikhan Volodya" title="DAO" linkedin="https://www.linkedin.com" instagram="https://www.instagram.com"/>
                 </SwiperSlide>

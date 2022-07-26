@@ -21,6 +21,8 @@ const ListMainTab = () => {
         <NFT href="1" src='/images/05BD4C49-37AB-4D61-9369-ECFB8D5DA4C4.jpeg' name="IHC Mafia" price='2,990,000 ₮' status='Худалдаж аваагүй байна' />
         <NFT href="1" src='/images/22pe5qy1065p00m46x3i6b.jpeg' name="IHC Mafia" price='2,990,000 ₮' status='Худалдаж аваагүй байна' />
         <NFT href="1" src='/images/28a4m2jktfmlchz0wv3ty6.jpeg' name="IHC Mafia" price='2,990,000 ₮' status='Худалдаж аваагүй байна' />
+        <NFT href="1" src='/images/58E817DC-B35D-46ED-BE67-54AA24375513.jpeg' name="IHC Mafia" price='2,990,000 ₮' status='Худалдаж аваагүй байна' />
+        <NFT href="1" src='/images/115m4vvmdji52oiy79up3e.jpeg' name="IHC Mafia" price='2,990,000 ₮' status='Худалдаж аваагүй байна' />
     </ul>
   );
 };
