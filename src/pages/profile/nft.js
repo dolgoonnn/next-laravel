@@ -6,30 +6,29 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import Web3WalletNFT from '../../components/web3WalletNFT';
 import ConnectWallet from '@/components/connect';
 import WalletIHC from '@/components/walletIHC';
-
 import Link from 'next/link';
 import ProfileHeader from '@/components/profileHeader';
 
-export default function ihc({user}) {
+export default function nft({user}) {
 
     return(
         <div className="bg-pbackground">
           <Header/>
-          <ProfileHeader user={user}/>
+          <ProfileHeader user={user} />
           <div className="pt-4 bg-white rounded-md mt-4 mx-auto max-w-7xl w-full px-4 sm:px-0">
-            <Tabs isLazy >
+            <Tabs defaultIndex={1} isLazy >
               <TabList>
-                <Link href="/profile/nft" shallow>
+                <Link href="/profile/ihc" shallow>
                   <Tab>IHC wallet</Tab>
                 </Link>
-                <Link href="/profile/ihc" shallow>
+                <Link href="/profile/nft" shallow>
                   <Tab>Web 3 wallet</Tab>
                 </Link>
               </TabList>
               <TabPanels>
                 {/* initially mounted */}
-                  <WalletIHC/>
                 <TabPanel>
+                  <WalletIHC/>
                 </TabPanel>
                 {/* initially not mounted */}
                 <TabPanel>

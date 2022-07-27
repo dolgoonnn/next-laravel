@@ -15,30 +15,33 @@ export default function ihc({user}) {
     return(
         <div className="bg-pbackground">
           <Header/>
-          <ProfileHeader user={user}/>
-          <div className="pt-4 bg-white rounded-md mt-4 mx-auto max-w-7xl w-full px-4 sm:px-0">
-            <Tabs isLazy >
-              <TabList>
-                <Link href="/profile/nft" shallow>
-                  <Tab>IHC wallet</Tab>
-                </Link>
-                <Link href="/profile/ihc" shallow>
-                  <Tab>Web 3 wallet</Tab>
-                </Link>
-              </TabList>
-              <TabPanels>
-                {/* initially mounted */}
-                  <WalletIHC/>
-                <TabPanel>
-                </TabPanel>
-                {/* initially not mounted */}
-                <TabPanel>
-                  <Web3WalletNFT/>
-                </TabPanel>
-              </TabPanels>
-            </Tabs>
+          <ProfileHeader user={user} />
 
-          </div>
+
+            <div className="pt-4 bg-white rounded-md mt-4 mx-auto max-w-7xl w-full px-4 sm:px-0">
+                <Tabs isLazy >
+                <TabList>
+                    <Link href="/profile/ihc" shallow>
+                    <Tab>IHC wallet</Tab>
+                    </Link>
+                    <Link href="/profile/nft" shallow>
+                    <Tab>Web 3 wallet</Tab>
+                    </Link>
+                </TabList>
+                <TabPanels>
+                    {/* initially mounted */}
+                    <TabPanel>
+                        <WalletIHC/>
+                    </TabPanel>
+                    {/* initially not mounted */}
+                    <TabPanel>
+                        <Web3WalletNFT/>
+                    </TabPanel>
+                </TabPanels>
+                </Tabs>
+
+
+            </div>
           <Footer/>
         </div>
 

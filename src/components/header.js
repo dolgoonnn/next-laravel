@@ -86,7 +86,7 @@ export default function Header() {
                     <div style={{ display: isExpand ? "block" : "none" }} className="absolute z-10 transform mt-4 px-2 w-screen max-w-max sm:px-0" id="headlessui-popover-panel-2">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-black px-5 py-6 mr-10 sm:gap-8 sm:p-8 text-white">
-                          <Link target="_blank" rel="noreferrer" href="/profile" >
+                          <Link target="_blank" rel="noreferrer" href="/profile/ihc" >
                             <a className="font-semibold hover:text-primary transition ease-in-out duration-150" >Profile</a>
                           </Link>
 
@@ -122,7 +122,7 @@ export default function Header() {
                   </div>
                 ) : (
                   <div className="flex grow-0 group  justify-center btn-border-gradient rounded-md mr-0 p-0.5 cursor-pointer text-white">
-                  <Link target="_blank" rel="noreferrer" href="/login" >
+                  <Link target="_blank" rel="noreferrer" href="/login/ihc" >
                     <a className="relativetransition text-xs flex items-center justify-center px-3 py-2 sm:px-10 sm:py-4 uppercase font-semibold rounded-md tracking-widest bg-white text-black" >Login</a>
                   </Link>
                 </div>

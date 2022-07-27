@@ -2,6 +2,7 @@ import { MoralisProvider } from "react-moralis";
 import { SessionProvider } from "next-auth/react"
 import '../../public/styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/react'
+import NextNProgress from "nextjs-progressbar";
 
 export default function App({
   Component,
@@ -15,6 +16,7 @@ export default function App({
     <MoralisProvider appId={process.env.NEXT_PUBLIC_APPID} serverUrl={process.env.NEXT_PUBLIC_SERVER_URL} initializeOnMount={true}>
       <SessionProvider session={pageProps.session}>
         <ChakraProvider>
+            <NextNProgress color="#3bc49b" />
             <Component {...pageProps} />
         </ChakraProvider>
       </SessionProvider>

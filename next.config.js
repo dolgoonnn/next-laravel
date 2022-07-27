@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     domains: ['via.placeholder.com', 'lh3.googleusercontent.com', 'api.yoton.club', 'platform-lookaside.fbsbx.com'],
   },

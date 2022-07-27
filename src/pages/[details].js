@@ -16,7 +16,7 @@ import Header from '../components/header';
 
 export default function Details() {
   return (
-    <div className="bg-black">
+    <div className="bg-pbackground">
       <Header/>
       <section id="collection" className="bg-collection bg-cover bg-center pb-10">
         <div className="flex flex-col mt-10 mx-auto max-w-7xl px-4 sm:px-0 sm:my-24 lg:my-12">
@@ -24,36 +24,8 @@ export default function Details() {
             <div className="sm:text-left row-start-2 mt-8 sm:row-start-auto lg:col-span-1">
                 <div className="lg:col-span-2 lg:row-span-2 lg:self-start lg:items-center">
                 <div className="flex flex-row gap-4">
-                    <div className="hidden w-4/12 sm:block">
-                        <div className="grid grid-row-3 gap-y-2" role="tablist" aria-orientation="horizontal">
-                            <button className="relative h-full bg-white flex items-center justify-center text-sm font-medium uppercase text-gray cursor-pointer hover:bg-black focus:outline-none focus:ring-0" id="headlessui-tabs-tab-27" role="tab" type="button" aria-selected="true" tabIndex="0" aria-controls="headlessui-tabs-panel-30">
-                            <span className="sr-only">cyborg1.png</span>
-                            <span className="relative w-full">
-                                <span style={{boxSizing: 'border-box', display: 'block', overflow: 'hidden', width: 'initial', height: 'initial', background: 'none', opacity: 1, border: '0px', margin: '0px', padding: '0px', position: 'relative'}}>
-                                    <Image alt="gif.gif" sizes="100vw" width="152px" height="152px" src="/images/1kghq0vfep6goqatntfgk.jpeg"></Image>
-                                </span>
-                            </span>
-                            <span className="bg-opacity-50 absolute inset-0 pointer-events-none" aria-hidden="true"></span>
-                            </button>
-                            <button className="relative h-full bg-white flex items-center justify-center text-sm font-medium uppercase text-gray cursor-pointer hover:bg-black focus:outline-none focus:ring-0" id="headlessui-tabs-tab-28" role="tab" type="button" aria-selected="false" tabIndex="-1">
-                            <span className="sr-only">cyborg2.png</span>
-                            <span className="relative w-full">
-                                <span style={{boxSizing: 'border-box', display: 'block', overflow: 'hidden', width: 'initial', height: 'initial', background: 'none', opacity: 1, border: '0px', margin: '0px', padding: '0px', position: 'relative'}}>
-                                    <Image alt="gif.gif" sizes="100vw" width="152px" height="152px" src="/images/4frfbtdgbc8iiapomuhbk.jpeg"></Image>
-                                </span>
-                            </span>
-                            <span className="absolute inset-0 pointer-events-none" aria-hidden="true"></span>
-                            </button>
-                            <button className="relative h-full bg-white flex items-center justify-center text-sm font-medium uppercase text-gray cursor-pointer hover:bg-black focus:outline-none focus:ring-0" id="headlessui-tabs-tab-29" role="tab" type="button" aria-selected="false" tabIndex="-1">
-                            <span className="sr-only">cyborg3.png</span>
-                            <span className="relative w-full">
-                                <span style={{boxSizing: 'border-box', display: 'block', overflow: 'hidden', width: 'initial', height: 'initial', background: 'none', opacity: 1, border: '0px', margin: '0px', padding: '0px', position: 'relative'}}>
-                                    <Image alt="gif.gif" sizes="100vw" width="152px" height="152px" src="/images/3nn1jyx137b7er1g99pat.jpeg"></Image>
-                                </span>
-                            </span>
-                            <span className="absolute inset-0 pointer-events-none" aria-hidden="true"></span>
-                            </button>
-                        </div>
+                      <div className="hidden w-4/12 sm:block">
+
                         </div>
                         <div className="relative w-full">
                         <div id="headlessui-tabs-panel-30" role="tabpanel" aria-labelledby="headlessui-tabs-tab-27" tabIndex="0">
